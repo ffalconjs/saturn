@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ffalconjs/saturn.git"
+    "url": "git+https://github.com/ffalconjs/saturn.git"
   },
   "main": "lib/index.js",
   "keywords": [
@@ -43,5 +43,9 @@
     "coverage": "covert test",
     "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffalconjs/saturn/issues"
+  },
+  "homepage": "https://github.com/ffalconjs/saturn#readme"
 }
